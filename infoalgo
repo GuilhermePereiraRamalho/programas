@@ -1,0 +1,10 @@
+#Ler algo e mostrar todas as infos
+
+n = input('Digite algo: ')
+print('O tipo primitivo desse valor é: ',type(n))
+print('Só tem espaços?', n.isspace())
+print('é um numero?', n.isnumeric())
+print('é alfabetico?', n.isalpha())
+print('é alfanumerico?', n.isalnum())
+print('Esta em maicusculas?', n.isupper())
+print('Esta em minusculas?', n.islower())
