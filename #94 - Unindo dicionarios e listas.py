@@ -32,8 +32,8 @@ print('\nLista de pessoas acima da média:')
 print()
 for p in pessoas:
     if p['idade'] >= media:
+        print('   ', end = '')
         for k, v in p.items():
-            print(f'{k} = {v}')
+            print(f'{k} = {v};', end = '')
         print()
 print('<< ENCERRADO >>')
-
